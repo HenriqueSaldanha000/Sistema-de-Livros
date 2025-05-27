@@ -4,13 +4,13 @@ Aplicativo web fullstack para cadastro e gerenciamento de livros. Permite adicio
 
 ---
 
-## Funcionalidades Principais
+## Tecnologias Utilizadas
 
-### 1. Cadastro de Livros
-- O usuário pode inserir o título e o autor do livro em um formulário centralizado e estilizado, tornando a interação mais amigável e intuitiva.
+### C# com ASP.NET Core
+- O back-end da aplicação foi desenvolvido em C# utilizando o framework ASP.NET Core, proporcionando uma estrutura robusta e segura.
 
-### 2. Listagem e Remoção de Livros
-- Os livros cadastrados são exibidos em uma lista clara e organizada, onde cada item apresenta o título e o autor, com um botão para remoção que mantém a consistência visual do aplicativo.
+### Entity Framework Core com SQLite
+- Para a persistência de dados, foi utilizado o Entity Framework Core, um ORM que facilita o mapeamento objeto-relacional. O banco de dados escolhido foi o SQLite, uma solução leve e eficiente.
 
-### 3. Integração entre Front-end e Back-end
-- A aplicação utiliza React no front-end para uma interface dinâmica e responsiva, enquanto o back-end em C# com ASP.NET Core e Entity Framework gerencia a persistência dos dados em banco SQLite, garantindo segurança e eficiência no armazenamento.
+### React
+- O front-end foi desenvolvido com React, permitindo a criação de uma interface moderna, responsiva e com atualizações dinâmicas de conteúdo, sem a necessidade de recarregamento da página.
